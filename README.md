@@ -12,3 +12,19 @@
   //Bom
   nome: string = "Sem Mundial"
 ```
+---
+```
+  Evite o uso do ELSE.
+```
+```
+  //Ruim
+    if (a == b)
+      console.log('iguais')
+    else
+    console.log('diferentes')
+
+  //Bom
+    if (a == b)
+      console.log('iguais')
+    if (a != b)
+      console.log('diferentes')
